@@ -1,3 +1,4 @@
+@[TOC]
 # 小摘要
 我们的目的是创造一个面向大学生的帮助平台（比如领外卖、快递啥的），利用帮助积分与现金的不等价互换来达到开发者自身的收益，这样的一个系统。
 # 可行性分析
@@ -15,7 +16,6 @@ Power builder12
 本系统没有违反国家相关法律规定，法律方面可行。
 
 # 需求分析
-*~~**需要检查补充图**~~ *
  ## 系统功能分析
  本系统应具有如下功能：
 1. 登录
@@ -40,16 +40,16 @@ Power builder12
 ## 安全性分析
 1. 用户权限安全性：系统设置了管理员、操作员两个操作级别。管理员能对所有模块进行各种操作，并能给操作员分配权限。操作员只能在管理员分配的权限下进行操作。
 2. 系统的处理过程严格按照事务（Transaction）处理机制执行，对异常操作通常发出警告然后取消操作。同时对输入首先进行合法性检查不合法则发出错误提示，最大限度的满足数据的安全，保证系统的稳定。
-## 图
--------------
-----------
-------------
-补
-## 图
------------
-------------
----------
-补
+## 系统的数据流图
+### 顶层图
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190112150458631.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA2Nzgx,size_16,color_FFFFFF,t_70)
+### 基本数据流图
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190112150554511.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA2Nzgx,size_16,color_FFFFFF,t_70)
+## 数据字典
+### 任务数据字典
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190112155354713.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA2Nzgx,size_16,color_FFFFFF,t_70)
+### 用户数据字典
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019011215541576.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA2Nzgx,size_16,color_FFFFFF,t_70)
 # 软件概要设计
 # 软件详细设计
 # 软件测试和调试 
